@@ -1,1 +1,3 @@
 # StatisticalArbitrageETFs
+
+Exchange-traded Funds (ETFs) are very popular trading and investment vehicles. An ETF is an investment fund traded on stock exchanges, much like stocks. An ETF holds assets such as stocks, commodities, or bonds, and trades close to its net asset value over the course of the trading day. ETFs track NAV very closely but cannot track it perfectly; therefore, they often trade at a small premium or discount to their NAV. These variations in discounts are predictive of future returns. A simple trading strategy could be constructed, which buys ETFs at high discounts and sells them after other market participants (arbitrageurs) close their discounts.
