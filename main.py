@@ -17,12 +17,12 @@ class StatisticalArbitragewithETFs(QCAlgorithm):
 
     def Initialize(self):
         
-        #TASK 1 (Set Conditions)
+        #TASK 1 (Set conditions)
         self.SetStartDate(...) # set start date (e.g. 1, 1, 2005)
         self.SetEndDate(...) # set dnd date (if not included, end date will be automatically be today's date) 
         self.SetCash(...) # set strategy cash (e.g. 100000)
         
-        #TASK 2 (Define Variables and Data Lists)
+        #TASK 2 (Define variables and data lists)
         # Request the symbols of the EquityNAV data from data_tools in csv format with daily resolution and store in a variable called nav_data
         self.nav_data = ...
 
@@ -95,7 +95,7 @@ class StatisticalArbitragewithETFs(QCAlgorithm):
                             discount_mean = ...
                             discount_std = ...
 
-        #TASK 9 (discount at a close move away from its mean historical value by more than two standard deviations)
+        #TASK 9 (Discount at a close move away from its mean historical value by more than two standard deviations)
                             if ...
                                 if invested_cnt < self.opened_pos_max_cnt and not self.Portfolio[etf].Invested:
                                     # there's a place for additional position and security if not held already
