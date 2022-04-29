@@ -18,7 +18,7 @@ class StatisticalArbitragewithETFs(QCAlgorithm):
     def Initialize(self):
         
         #TASK 1 (Set conditions)
-        self.SetStartDate(...) # set start date (e.g. 1, 1, 2005)
+        self.SetStartDate(...) # set start date (e.g. 2005, 1, 1)
         self.SetEndDate(...) # set dnd date (if not included, end date will be automatically be today's date) 
         self.SetCash(...) # set strategy cash (e.g. 100000)
         
